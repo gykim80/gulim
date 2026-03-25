@@ -32,7 +32,7 @@ if [ -f "$COMMANDS_DIR/font.md" ]; then
   echo "    /font cute playful children's font"
   echo "    /font formal business report Korean font"
   echo ""
-  echo "  More info: https://gulim.vercel.app"
+  echo "  More info: https://gulim.xyz"
   echo ""
 else
   echo "  Installation failed. Please install manually:"
