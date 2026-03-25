@@ -145,7 +145,7 @@ Warm + Cozy mood
 
 ## API Reference
 
-Base URL: `https://gulim.vercel.app`
+Base URL: `https://gulim.xyz`
 
 스킬 없이 직접 API를 호출할 수도 있습니다. 인증 불필요.
 
@@ -162,7 +162,7 @@ Base URL: `https://gulim.vercel.app`
 | `include_guide` | No | `true` | 디자인 가이드 포함 여부 |
 
 ```bash
-curl -s "https://gulim.vercel.app/api/v1/fonts/recommend?keywords=warm,minimal&language=both&limit=4"
+curl -s "https://gulim.xyz/api/v1/fonts/recommend?keywords=warm,minimal&language=both&limit=4"
 ```
 
 ### 2. 폰트 브라우즈 — `GET /api/v1/fonts/browse`
@@ -180,7 +180,7 @@ curl -s "https://gulim.vercel.app/api/v1/fonts/recommend?keywords=warm,minimal&l
 | `page` | No | `1` | 페이지 번호 |
 
 ```bash
-curl -s "https://gulim.vercel.app/api/v1/fonts/browse?category=gothic&mood_tag=modern&limit=5"
+curl -s "https://gulim.xyz/api/v1/fonts/browse?category=gothic&mood_tag=modern&limit=5"
 ```
 
 ### 3. 폰트 상세 — `GET /api/v1/fonts/:id`
@@ -188,7 +188,7 @@ curl -s "https://gulim.vercel.app/api/v1/fonts/browse?category=gothic&mood_tag=m
 특정 폰트의 상세 정보, 유사 폰트, CSS snippet 조회.
 
 ```bash
-curl -s "https://gulim.vercel.app/api/v1/fonts/{font_id}"
+curl -s "https://gulim.xyz/api/v1/fonts/{font_id}"
 ```
 
 ---
@@ -199,5 +199,5 @@ MIT License. See [LICENSE](./LICENSE) for details.
 
 ---
 
-> More fonts at [gulim.vercel.app](https://gulim.vercel.app)
+> More fonts at [gulim.xyz](https://gulim.xyz)
 > Powered by Font Sommelier API
