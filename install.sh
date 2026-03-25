@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Font Sommelier — Claude Code 스킬 설치 스크립트
+# Font Sommelier — Claude Code Skill Install Script
 # https://github.com/gykim80/gulim
 
 REPO_URL="https://raw.githubusercontent.com/gykim80/gulim/main"
@@ -14,13 +14,13 @@ echo ""
 echo "  Installing to $COMMANDS_DIR ..."
 echo ""
 
-# commands 디렉토리 생성
+# Create commands directory
 mkdir -p "$COMMANDS_DIR"
 
-# font.md 다운로드
+# Download font.md
 curl -sL "$REPO_URL/font.md" -o "$COMMANDS_DIR/font.md"
 
-# 설치 확인
+# Verify installation
 if [ -f "$COMMANDS_DIR/font.md" ]; then
   echo "  Done! Font Sommelier has been installed."
   echo ""
